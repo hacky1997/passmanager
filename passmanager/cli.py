@@ -12,12 +12,12 @@ def range_type(value_string):
 def parse_args(args):
     parser = argparse.ArgumentParser(
         usage="passmanager SITE [LOGIN] [MASTER_PASSWORD] [OPTIONS]",
-        description=description,
-        epilog=EXAMPLES + COPYRIGHT,
+        description=open('./README.md').read(),
+        # epilog=EXAMPLES + COPYRIGHT,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument(
-        "-v", "--version", action="version", version=version.__version__
+        "-v", "--version", action="version", version='0.0.1'
     )
     parser.add_argument(
         "site", nargs="?", help="site used in the password generation (required)"
@@ -29,15 +29,15 @@ def parse_args(args):
         "master_password",
         default=os.environ.get("passmanager_MASTER_PASSWORD", None),
         nargs="?",
-        help="master password used in password generation. Default to passmanager_MASTER_PASSWORD env variable or prompt.",
+        help="master password used in password generation.",
     )
     parser.add_argument(
         "-L",
         "--length",
-        default=16,
+        default=10,
         choices=range(5, 35+1),
         type=range_type,
-        help="password length (default: 16, min: 5, max: 35)",
+        help="password length (default: 10, min: 5, max: 35)",
         metavar='[5-35]'
     )
     parser.add_argument(

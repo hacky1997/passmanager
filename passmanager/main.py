@@ -4,10 +4,10 @@ import sys
 import traceback
 import signal
 
-from passmanager.cli import parse_args
-from passmanager.manager import create_profile
-from passmanager.password import generate_password
-from passmanager.clipboard import copy, get_system_copy_command
+from cli import parse_args
+from manager import create_profile
+from password import generate_password
+from clipboard import copy, get_system_copy_command
 
 signal.signal(signal.SIGINT, lambda s, f: sys.exit(0))
 
@@ -16,8 +16,7 @@ def main(args=sys.argv[1:]):
     args = parse_args(args)
     if args.clipboard and not get_system_copy_command():
         print(
-            "ERROR To use the option -c (--copy) you need pbcopy on OSX, "
-            + "xsel, xclip, or wl-clipboard on Linux, and clip on Windows"
+            "ERROR To use the option -c (--copy) "
         )
         sys.exit(3)
 
@@ -25,13 +24,13 @@ def main(args=sys.argv[1:]):
         args.site = getpass.getpass("Site: ")
         args.login = getpass.getpass("Login: ")
     if not args.site:
-        print("ERROR argument SITE is required but was not provided.")
+        print("ERROR : SITE is not given")
         sys.exit(4)
 
     if not args.master_password:
         args.master_password = getpass.getpass("Master Password: ")
     if not args.master_password:
-        print("ERROR argument MASTER_PASSWORD is required but was not provided")
+        print("ERROR : MASTER_PASSWORD is required ")
         sys.exit(5)
 
     profile, master_password = create_profile(args)
@@ -42,14 +41,11 @@ def main(args=sys.argv[1:]):
             copy(generated_password)
             print("Copied to clipboard")
         except Exception as e:
-            print("Copy failed, we are sorry")
-            print("Can you send us an email at contact@passmanager.com\n")
-            print("-" * 80)
-            print("Object: [passmanager][cli] Copy issue on %s" % platform.system())
-            print("Hello,")
-            print("I got an issue with passmanager cli software.\n")
+            print("@" * 80)
+            print("Copy issue occured on %s" % platform.system())
+            print("Can you send us an email at sayanmondal2098@gmail.com\n")
             traceback.print_exc()
-            print("-" * 80)
+            print("_" * 80)
     else:
         print(generated_password)
 
