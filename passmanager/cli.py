@@ -12,7 +12,7 @@ def range_type(value_string):
 def parse_args(args):
     parser = argparse.ArgumentParser(
         usage="passmanager SITE [LOGIN] [MASTER_PASSWORD] [OPTIONS]",
-        description=open('./README.md').read(),
+        description=open('../README.md').read(),
         # epilog=EXAMPLES + COPYRIGHT,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
