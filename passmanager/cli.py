@@ -1,6 +1,6 @@
 import argparse
 import os
-import clipboard
+import passmanager.clipboard
 
 def range_type(value_string):
     value = int(value_string)
@@ -12,7 +12,7 @@ def range_type(value_string):
 def parse_args(args):
     parser = argparse.ArgumentParser(
         usage="passmanager SITE [LOGIN] [MASTER_PASSWORD] [OPTIONS]",
-        description=open('./README.md').read(),
+        description='passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it',
         # epilog=EXAMPLES + COPYRIGHT,
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )

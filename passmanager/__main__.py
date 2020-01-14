@@ -1,13 +1,14 @@
+from __future__ import print_function
 import getpass
 import platform
 import sys
 import traceback
 import signal
 
-from cli import parse_args
-from manager import create_profile
-from password import generate_password
-from clipboard import copy, get_system_copy_command
+from passmanager.cli import parse_args
+from passmanager.manager import create_profile
+from passmanager.password import generate_password
+from passmanager.clipboard import copy, get_system_copy_command
 
 signal.signal(signal.SIGINT, lambda s, f: sys.exit(0))
 

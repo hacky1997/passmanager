@@ -1,15 +1,15 @@
-name = "easypass"
-description = "easypass is a stateless password manager."
+name = "passmanager"
+description = "passmanager is a stateless password manager."
 long_description = """Name:
-  easypass - stateless password generator
+  passmanager - stateless password generator
 Usage:
-  easypass SITE [LOGIN] [MASTER_PASSWORD] [OPTIONS]
+  passmanager SITE [LOGIN] [MASTER_PASSWORD] [OPTIONS]
 Arguments:
   SITE                site used in the password generation (required)
   LOGIN               login used in the password generation
                       default to '' if not provided
   MASTER_PASSWORD     master password used in password generation
-                      default to easypass_MASTER_PASSWORD env variable or prompt
+                      default to passmanager_MASTER_PASSWORD env variable or prompt
 Options:
   -l, --lowercase      add lowercase in password
   -u, --uppercase      add uppercase in password
@@ -24,16 +24,16 @@ Options:
   --no-symbols         remove symbols from password
   -c, --clipboard      copy generated password to clipboard rather than displaying it.
                        Need pbcopy (OSX), xsel or xclip (Linux) or clip (Windows).
-  -v, --version        easypass version number
+  -v, --version        passmanager version number
 Examples:
   # no symbols
-  easypass site login masterpassword --no-symbols
+  passmanager site login masterpassword --no-symbols
   # no symbols shortcut
-  easypass site login masterpassword -lud
+  passmanager site login masterpassword -lud
   # only digits and length of 8
-  easypass site login masterpassword -d -L8
+  passmanager site login masterpassword -d -L8
   # master password in env variable
-  easypass_MASTER_PASSWORD="masterpassword" easypass site login
+  passmanager_MASTER_PASSWORD="masterpassword" passmanager site login
 Copyright:
-  Copyright © 2018 Guillaume Vincent <contact@easypass.com>.  License GPLv3: GNU GPL version 3 <https://gnu.org/licenses/gpl.html>.
+  Copyright © 2018 Guillaume Vincent <contact@passmanager.com>.  License GPLv3: GNU GPL version 3 <https://gnu.org/licenses/gpl.html>.
   This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law."""
