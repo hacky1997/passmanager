@@ -1,6 +1,6 @@
 import argparse
 import os
-import clipboard
+import passmanager.clipboard
 
 def range_type(value_string):
     value = int(value_string)

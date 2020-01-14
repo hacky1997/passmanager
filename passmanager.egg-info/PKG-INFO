@@ -1,12 +1,12 @@
 Metadata-Version: 2.1
 Name: passmanager
-Version: 1.0.1
+Version: 1.0.2
 Summary: passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it
-Home-page: https://github.com/sayanmondal2098/easytoken
+Home-page: https://github.com/sayanmondal2098/passmanager
 Author: Sayan Mondal(ph3n1x)
 Author-email: sayanmondal2098@gmail.com
 License: MIT
-Download-URL: https://github.com/sayanmondal2098/easytoken
+Download-URL: https://github.com/sayanmondal2098/passmanager
 Description: # passmanager
         
 Keywords: Password,Password Manager,Manager,cli tools
