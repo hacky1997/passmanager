@@ -52,6 +52,8 @@ $ python3 -m pip install --upgrade passmanager
 Implementation:
 ```
 $ python3 -m passmanager facebook.com 
+Master Password:
+<Generated Password>
 ```
   
 # Developer Info:
@@ -60,12 +62,7 @@ Author-email: sayanmondal2098@gmail.com<br>
 Team: Bread and Code
 
 # Required Libraries:
-          'nltk',
-          're',
-          'itertools',
-          'os',
-          'sys',
-          'string'
+    No Libraries required
 
 # LISCENSE:
 ```

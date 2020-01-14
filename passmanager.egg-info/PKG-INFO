@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: passmanager
-Version: 1.0.5
+Version: 1.0.6
 Summary: passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it
 Home-page: https://github.com/sayanmondal2098/passmanager
 Author: Sayan Mondal(ph3n1x)
@@ -59,9 +59,10 @@ Description: # passmanager
         ```
         
         Implementation:
-        ```python
-        >>> from easytoken.easytoken import Wordeasytoken
-        >>>Wordeasytoken.tokenize(Wordeasytoken,text="Hello all , I'll be a good lover for you.")
+        ```
+        $ python3 -m passmanager facebook.com 
+        Master Password:
+        <Generated Password>
         ```
           
         # Developer Info:
@@ -70,12 +71,7 @@ Description: # passmanager
         Team: Bread and Code
         
         # Required Libraries:
-                  'nltk',
-                  're',
-                  'itertools',
-                  'os',
-                  'sys',
-                  'string'
+            No Libraries required
         
         # LISCENSE:
         ```
