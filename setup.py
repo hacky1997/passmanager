@@ -12,8 +12,8 @@ setup(
   description = 'passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it',  
   author = 'Sayan Mondal(ph3n1x)',               
   author_email = 'sayanmondal2098@gmail.com',     
-  url = 'https://github.com/sayanmondal2098/easytoken',   
-  download_url = 'https://github.com/sayanmondal2098/easytoken',   
+  url = 'https://github.com/sayanmondal2098/passmanager',   
+  download_url = 'https://github.com/sayanmondal2098/passmanager',   
   keywords = ['Password', 'Password Manager', 'Manager', 'cli tools'],   # Keywords that define your package best
 #   install_requires=[         
 #           '',
