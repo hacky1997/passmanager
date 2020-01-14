@@ -1,5 +1,3 @@
-from passmanager.main import main
+import passmanager.main as pm 
 
-print(main ("facebook.com" "1234"))
-
-passmanager site login masterpassword --no-symbols
+pm.generate_password('1','1234')

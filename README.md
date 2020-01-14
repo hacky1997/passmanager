@@ -50,9 +50,8 @@ $ python3 -m pip install --upgrade passmanager
 ```
 
 Implementation:
-```python
->>> from easytoken.easytoken import Wordeasytoken
->>>Wordeasytoken.tokenize(Wordeasytoken,text="Hello all , I'll be a good lover for you.")
+```
+$ python3 -m passmanager facebook.com 
 ```
   
 # Developer Info:
