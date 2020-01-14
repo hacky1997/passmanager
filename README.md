@@ -62,7 +62,7 @@ Author-email: sayanmondal2098@gmail.com<br>
 Team: Bread and Code
 
 # Required Libraries:
-    No Libraries required
+    Hurrah! No Libraries / External Module required
 
 # LISCENSE:
 ```
