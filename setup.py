@@ -5,7 +5,7 @@ from distutils.core import setup
 setup(
   name = 'passmanager',         
   packages = ['passmanager'],   
-  version = '1.0.6',      
+  version = '1.0.1',      
   license='MIT', 
   long_description=open('README.md').read(),
   long_description_content_type='text/markdown',
