@@ -6,7 +6,7 @@
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
  <p align="center">
-  <img  src="misc/passmanager.jpg">
+  <img  src="https://bread-and-code.github.io/images/projects/passmanager.png">
 </p>
 
 # passmanager
