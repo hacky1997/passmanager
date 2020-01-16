@@ -63,6 +63,10 @@ Team: Bread and Code
 
 # Required Libraries:
     Hurrah! No Libraries / External Module required
+    
+    
+KeyWords : passmanager password-manager password-generator password-vault password-store password-safety
+
 
 # LISCENSE:
 ```
