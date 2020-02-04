@@ -10,7 +10,7 @@
 </p>
 
 # passmanager
-passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it',  
+passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it'.
   <br>
 <br>
 
