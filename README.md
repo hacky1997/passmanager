@@ -68,7 +68,7 @@ Team: Bread and Code
 KeyWords : passmanager password-manager password-generator password-vault password-store password-safety
 
 
-# LISCENSE:
+# LICENSE:
 ```
 MIT License
 
