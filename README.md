@@ -6,11 +6,11 @@
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
  <p align="center">
-  <img  src="">
+  <img  src="https://bread-and-code.github.io/images/projects/passmanager.png">
 </p>
 
 # passmanager
-passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it',  
+passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it'.
   <br>
 <br>
 
@@ -63,8 +63,12 @@ Team: Bread and Code
 
 # Required Libraries:
     Hurrah! No Libraries / External Module required
+    
+    
+KeyWords : passmanager password-manager password-generator password-vault password-store password-safety
 
-# LISCENSE:
+
+# LICENSE:
 ```
 MIT License
 

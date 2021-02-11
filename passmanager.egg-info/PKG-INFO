@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: passmanager
-Version: 1.0.6
+Version: 1.0.7
 Summary: passmanager is an independent Open Source, Password Manager python library which implements a cli tools to create password for site and store it
 Home-page: https://github.com/sayanmondal2098/passmanager
 Author: Sayan Mondal(ph3n1x)
@@ -10,12 +10,12 @@ Download-URL: https://github.com/sayanmondal2098/passmanager
 Description: # passmanager
         
         [![Gitter](https://badges.gitter.im/BreadandCode/community.svg)](https://gitter.im/BreadandCode/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-        [![CircleCI](https://circleci.com/gh/sayanmondal2098/easytoken.svg?style=svg)](https://circleci.com/gh/sayanmondal2098/easytoken)
-        [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/sayanmondal2098/easytoken/fork)
+        [![CircleCI](https://circleci.com/gh/sayanmondal2098/easytoken.svg?style=svg)](https://circleci.com/gh/sayanmondal2098/passmanager)
+        [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/sayanmondal2098/passmanager/fork)
         [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
         
          <p align="center">
-          <img  src="">
+          <img  src="https://bread-and-code.github.io/images/projects/passmanager.png">
         </p>
         
         # passmanager
@@ -71,7 +71,7 @@ Description: # passmanager
         Team: Bread and Code
         
         # Required Libraries:
-            No Libraries required
+            Hurrah! No Libraries / External Module required
         
         # LISCENSE:
         ```
